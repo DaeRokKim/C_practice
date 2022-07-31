@@ -1,6 +1,0 @@
-검색 키워드
-django login / 장고 로그인 / django user model 확장 / 장고 auth.user / 장고 auth.model 등
-
-장고에서 기본적으로 제공하는 user model을 사용하여 회원가입 및 로그인 할 수 있는 app 구현
-
-django REST API 만들기
