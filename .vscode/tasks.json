@@ -12,7 +12,7 @@
       "label": "g++ build",
       "command": "g++",
       "args": [
-        "${fileDirname}\\*.c",
+        "${fileDirname}\\*.cpp",
         "-g",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}"
@@ -66,7 +66,7 @@
       "args": [
         "-fdiagnostics-color=always",
         "-g",
-        "${fileDirname}\\*.c",
+        "${fileDirname}\\*.cpp",
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],
