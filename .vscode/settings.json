@@ -1,9 +1,11 @@
 {
-    "files.associations": {
-        "stdio.h": "c",
-        "limits": "c",
-        "iostream": "cpp",
-        "ostream": "cpp",
-        "*.tcc": "cpp"
-    }
+  "files.associations": {
+    "stdio.h": "c",
+    "limits": "c",
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "*.tcc": "cpp",
+    "*.cpp": "cpp",
+    "*.c": "c"
+  }
 }
