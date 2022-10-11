@@ -9,9 +9,9 @@ typedef struct _node
 
 int main()
 {
-   Node *head;
-   Node *tail;
-   Node *cur;
+   Node *head = NULL;
+   Node *tail = NULL;
+   Node *cur = NULL;
 
    Node *newNode = NULL;
    int readData;
