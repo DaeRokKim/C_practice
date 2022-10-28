@@ -6,6 +6,7 @@
     "ostream": "cpp",
     "*.tcc": "cpp",
     "*.cpp": "cpp",
-    "*.c": "c"
+    "*.c": "c",
+    "stdlib.h": "c"
   }
 }
