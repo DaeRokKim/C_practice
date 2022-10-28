@@ -4,7 +4,6 @@
 #include <ctype.h>
 #include "ListBaseStack.h"
 #include "BinaryTree2.h"
-#include "ExpressionTree.h"
 
 BTreeNode *MakeEXPTree(char exp[])
 {
@@ -37,9 +36,7 @@ BTreeNode *MakeEXPTree(char exp[])
    return SPop(&stack);
 }
 
-int EvaluateExpTree(BTreeNode *bt)
-{
-}
+int EvaluateExpTree(BTreeNode *bt);
 
 void ShowNodeData(int data)
 {

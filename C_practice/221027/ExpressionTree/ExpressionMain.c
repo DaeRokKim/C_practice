@@ -18,7 +18,7 @@ int main()
    ShowPostfixTypeExp(eTree);
    printf("\n");
 
-   printf("연산의 결과 : %d \n", EvaluateExpTree(eTree));
+   // printf("연산의 결과 : %d \n", EvaluateExpTree(eTree));
 
    return 0;
 }
