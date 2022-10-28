@@ -3,7 +3,7 @@
 
 int main()
 {
-   char exp[] = "12+7*";
+   char exp[] = "32+7*";
    BTreeNode *eTree = MakeEXPTree(exp);
 
    printf("전위 표기법의 수식 : ");
@@ -18,7 +18,7 @@ int main()
    ShowPostfixTypeExp(eTree);
    printf("\n");
 
-   // printf("연산의 결과 : %d \n", EvaluateExpTree(eTree));
+   printf("연산의 결과 : %d \n", EvaluateExpTree(eTree));
 
    return 0;
 }
