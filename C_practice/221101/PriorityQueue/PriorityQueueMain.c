@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <string.h>
 #include "PriorityQueue.h"
 
-int DataPriorityComp(char ch1, char ch2)
+int DataPriorityComp(const char *str1, const char *str2)
 {
-   return ch2 - ch1;
+   return strlen(str2) - strlen(str1);
 }
 
 int main()
@@ -11,19 +12,15 @@ int main()
    PQueue ppq;
    PQueueInit(&ppq, DataPriorityComp);
 
-   PEnqueue(&ppq, 'A');
-   PEnqueue(&ppq, 'B');
-   PEnqueue(&ppq, 'C');
-   printf("%c \n", PDequeue(&ppq));
-
-   PEnqueue(&ppq, 'A');
-   PEnqueue(&ppq, 'B');
-   PEnqueue(&ppq, 'C');
-   printf("%c \n", PDequeue(&ppq));
+   PEnqueue(&ppq, "Good Morning");
+   PEnqueue(&ppq, "What the fxxk");
+   PEnqueue(&ppq, "Priority Queue");
+   PEnqueue(&ppq, "Do you know GangNamStyle?");
+   PEnqueue(&ppq, "Hello World!");
 
    while (!PQIsEmpty(&ppq))
    {
-      printf("%c \n", PDequeue(&ppq));
+      printf("%s \n", PDequeue(&ppq));
    }
 
    return 0;
